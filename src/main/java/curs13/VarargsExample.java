@@ -4,26 +4,27 @@ public class VarargsExample {
 
 	public static void main(String[] args) {
 
-		printStringArguments(20,'c', "One ", "two", "three");
-		printStringArguments(20,'c',"a", "b", "c", "d");
+		//printStringArguments(33, 'b' ,"One ", "two", "three", "four", "five");
+		
+		//printStringArguments(20,'c',"a", "b", "c", "d");
 		//printStringArguments(1, 2, 3);
 		
 		printArguments("A", "B", "C");
-		printArguments('c', 350.6, "text", 32);
+		printArguments('c', 350.6, "text", 32, 55, "dada", "da");
 		printArguments("V", 234, 3456, 'c', "3456");
 		
 
 		
 	}
 
-	public static void printStringArguments(int num, char c,String...values ) {
+/*	public static void printStringArguments(int num, char n, String...values) {
 		
 		for(String value : values) {
 			
 			System.out.println(value);
 		}
 		
-	}
+	} */
 	
 	public static <T> void printArguments(T...values) {
 		
@@ -34,7 +35,7 @@ public class VarargsExample {
 	}
 	
 	
-	/*
+	
 	
 	public static void printStringArguments(String str1, String str2, String str3) {
 		
@@ -45,6 +46,6 @@ public class VarargsExample {
 		
 		System.out.println(num1 +" "+ num2 + " "+ num3);
 		
-	}*/
+	}
 	
 }

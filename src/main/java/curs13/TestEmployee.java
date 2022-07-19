@@ -6,6 +6,9 @@ public class TestEmployee {
 
 		EmployeeUtils<Developer> dev =  new EmployeeUtils<Developer>(new Developer("Ionut", 2500)); 
 		EmployeeUtils<Manager> manager =  new EmployeeUtils<Manager>(new Manager("Oana", 1500)); 
+		
+		
+		
 		//EmployeeUtils<Tester> tester =  new EmployeeUtils<Tester>(new Tester("Oana", 1500)); 
 
 		System.out.println("Dev :" + dev.getNume());

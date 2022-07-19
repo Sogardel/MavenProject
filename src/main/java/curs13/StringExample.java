@@ -20,7 +20,7 @@ public class StringExample {
 		System.out.println(str2.getClass());
 		
 		//boolean
-		boolean bol =  true;
+		boolean bol =  true; 
 		String str3 = Boolean.toString(bol);
 		String str4 = String.valueOf(bol); //sysout
 		
@@ -40,8 +40,7 @@ public class StringExample {
 		
 		System.out.println(nrOfWords);
 		System.out.println(String.format("Textul meu contine %d cuvinte!", nrOfWords));
-		
-		//"Click on element %d ", element
+		//"Click on element %d ", + element +" "
 		
 		
 		

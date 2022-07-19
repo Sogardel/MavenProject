@@ -4,12 +4,12 @@ public class StringBuilderExample {
 
 	public static void main(String[] args) {
 		
-		reverseString("Eu invat java");
-		deleteFromString("Eu invat java");
-		replaceFromString("Salut Bogdan", 6, 12, "Oana");
-		insertIntoString("Salut", 5, "Ion");
-		addSpacesToText("thisIsACamelCaseString");
-		addSpacesToText2("aaaaabcccccbdddddbeeeeee");
+		//reverseString("Eu invat java");
+		//deleteFromString("Eu invat java");
+		//replaceFromString("Salut Bogdan", 6, 12, "Oana");
+		//insertIntoString("Salut", 5, "Ion");
+	//	addSpacesToText("thisIsACamelCaseString");
+	//	addSpacesToText2("aaaaabcccccbdddddbeeeeee");
 		appendToString("Salut ", "George");
 		
 

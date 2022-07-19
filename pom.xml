@@ -5,6 +5,19 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync -->
+		<dependency>
+		    <groupId>org.mongodb</groupId>
+		    <artifactId>mongodb-driver-sync</artifactId>
+		    <version>4.5.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core -->
+		<dependency>
+		    <groupId>org.mongodb</groupId>
+		    <artifactId>mongodb-driver-core</artifactId>
+		    <version>4.5.0</version>
+		</dependency>
+
   
 	  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
